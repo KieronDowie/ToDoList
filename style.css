@@ -1,0 +1,46 @@
+.container {
+  padding: 10px; }
+  .container h1 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: left; }
+  .container li {
+    position: relative;
+    width: 200px;
+    margin-bottom: 5px; }
+    .container li input, .container li p {
+      position: absolute;
+      bottom: 0; }
+    .container li p {
+      left: 30%;
+      padding: 0;
+      font-size: 16px; }
+    .container li input {
+      left: 0;
+      height: 20px;
+      width: 20px; }
+
+.button {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background: #4949e3;
+  border: 1px solid #4040e1;
+  box-shadow: 0px 1px 5px 0.2px black;
+  border-radius: 8px;
+  height: 20px;
+  width: 100px;
+  position: relative; }
+  .button p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .button:hover {
+    background: #5f5fe6;
+    cursor: pointer; }
+  .button:active {
+    background: #3333df; }
+
+/*# sourceMappingURL=style.css.map */
